@@ -1,9 +1,17 @@
 .Task-card {
     width: auto;
+    max-width: fit-content;
     background-color: rgb(201, 212, 245);
+    padding: 5%;
   }
 
   .Task-full-width
   {
-   width: 50%;
+   width: auto;
+  }
+
+  .Task-main
+  {
+    display: flex;
+    justify-content: center;
   }
