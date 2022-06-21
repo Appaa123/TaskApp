@@ -1,6 +1,17 @@
-<form class="Task-form">
-    <mat-form-field class="Task-full-width" appearance="fill">
-      <mat-label>Add aTask</mat-label>
-      <textarea matInput placeholder="Need to complete...."></textarea>
-    </mat-form-field>
-  </form>
+<mat-card class="Task-card">
+    <mat-card-header>
+        <mat-card-title>Add a Task</mat-card-title> 
+    </mat-card-header>
+
+    <mat-card-content>
+        <mat-form-field class="Task-full-width" appearance="fill">
+          <textarea matInput placeholder="Need to complete...."></textarea>
+        </mat-form-field>
+    </mat-card-content>
+
+  <mat-card-actions>
+    <button mat-button>Add</button>
+    <button mat-button>Reset</button>
+  </mat-card-actions>
+
+</mat-card>
