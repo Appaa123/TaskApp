@@ -1,4 +1,9 @@
 .Task-card {
-    max-width: 400px;
-    background-color: rgb(172, 187, 241);
+    width: auto;
+    background-color: rgb(201, 212, 245);
+  }
+
+  .Task-full-width
+  {
+   width: 50%;
   }
